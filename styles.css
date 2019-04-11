@@ -3,6 +3,10 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+h1 {
+    transform: skewX(35deg);
+}
+
 img {
     height: 300px; 
     width: 300px;
@@ -25,8 +29,8 @@ div.really-transform-portrait {
     transform: skew(50deg, 50deg);
 }
 
-div.closing-statement {
-    position: relative;
+footer {
+    transform: skewY(5deg);
 }
 
 
