@@ -1,0 +1,32 @@
+body {
+    background-color: chartreuse;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+img {
+    height: 300px; 
+    width: 300px;
+    display: inline-block;
+}
+
+div.portrait {
+    float: left;
+}
+
+div.transform-portrait {
+    float: left;
+    margin: 100px;
+    transform: skew(20deg, 20deg);
+}
+
+div.really-transform-portrait {
+    float: left;
+    margin: 100px;
+    transform: skew(50deg, 50deg);
+}
+
+div.closing-statement {
+    position: relative;
+}
+
+
